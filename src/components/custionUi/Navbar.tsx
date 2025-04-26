@@ -121,7 +121,7 @@ export default function Navbar() {
         <div className="flex items-center gap-4">
           <Link href={"/"}>
             <h2 className="text-foreground text-lg font-bold leading-tight tracking-[-0.015em] t">
-              Connected
+              Socialized
             </h2>
           </Link>
         </div>
@@ -159,6 +159,8 @@ export default function Navbar() {
         {/* Right-side Buttons */}
         <div className="flex items-center gap-4">
           {/* Theme Toggle */}
+          {/* dark light mode */}
+          {/* theme toggle .tsx */}
           <ModeToggle></ModeToggle>
 
           {/* Auth Buttons */}

@@ -251,6 +251,8 @@ export default function PostCard({
         )}
       </CardContent>
 
+      {/* like button */}
+
       <CardFooter className="p-4 pt-0">
         <div className="flex items-center space-x-4 w-full">
           <Button
