@@ -84,13 +84,13 @@ export default function ChatSidebar({ userId }: ChatSidebarProps) {
       <div className="p-4 border-b border-gray-200">
         <div className="flex items-center">
           <h1 className="text-xl font-semibold flex-1">Messages</h1>
-          <button
+          {/* <button
             onClick={() => signOut({ callbackUrl: "/auth/login" })}
             className="p-2 rounded-full hover:bg-gray-100"
             aria-label="Log out"
           >
             <LogOut className="h-5 w-5 text-gray-500" />
-          </button>
+          </button> */}
         </div>
         <div className="mt-4 relative">
           <input
