@@ -8,6 +8,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import PostCard from "@/components/PostCard";
 import { Skeleton } from "@/components/ui/skeleton";
 import Link from "next/link";
+// import { Link } from "lucide-react";
 
 interface Profile {
   id: string;
@@ -86,7 +87,9 @@ export default function ProfilePage() {
       <Card>
         <CardHeader className="relative">
           <div className="absolute top-4 right-4">
-            <Link href="/profile/edit"> <Button variant="outline">Edit Profile</Button></Link>
+          <Link href="/profile/edit">  
+            <Button variant="outline">Edit Profile</Button>
+          </Link>
           </div>
           <div className="flex flex-col items-center space-y-4">
             <Avatar className="h-24 w-24">

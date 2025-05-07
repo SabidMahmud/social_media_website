@@ -119,7 +119,7 @@ export function CreatePostForm({ groupId, user }: CreatePostFormProps) {
                   )}
                 />
 
-                {showImageField && (
+                {/* {showImageField && (
                   <FormField
                     control={form.control}
                     name="imageUrl"
@@ -132,10 +132,10 @@ export function CreatePostForm({ groupId, user }: CreatePostFormProps) {
                       </FormItem>
                     )}
                   />
-                )}
+                )} */}
 
                 <div className="flex justify-between items-center mt-4 pt-4 border-t">
-                  <Button
+                  {/* <Button
                     type="button"
                     variant="ghost"
                     size="sm"
@@ -143,7 +143,7 @@ export function CreatePostForm({ groupId, user }: CreatePostFormProps) {
                   >
                     <ImageIcon className="h-4 w-4 mr-2" />
                     {showImageField ? "Remove Image" : "Add Image"}
-                  </Button>
+                  </Button> */}
                   <Button type="submit" disabled={isLoading} size="sm">
                     {isLoading ? "Posting..." : "Post"}
                   </Button>

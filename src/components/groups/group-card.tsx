@@ -82,7 +82,7 @@ export function GroupCard({ group }: GroupCardProps) {
       <CardFooter className="pt-0 flex items-center justify-between">
         <div className="flex items-center gap-2">
           <Avatar>
-            <AvatarImage src={group.createdBy.profilePicture} />
+            {/* <AvatarImage src={group.createdBy.profilePicture} />  profile pic ashe na  */}
             <AvatarFallback>
               {group.createdBy.firstName.charAt(0)}
               {group.createdBy.lastName.charAt(0)}

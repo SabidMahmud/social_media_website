@@ -121,7 +121,7 @@ export default function Navbar() {
         <div className="flex items-center gap-4">
           <Link href={"/"}>
             <h2 className="text-foreground text-lg font-bold leading-tight tracking-[-0.015em] t">
-              Socialized
+              Connected
             </h2>
           </Link>
         </div>
@@ -159,8 +159,6 @@ export default function Navbar() {
         {/* Right-side Buttons */}
         <div className="flex items-center gap-4">
           {/* Theme Toggle */}
-          {/* dark light mode */}
-          {/* theme toggle .tsx */}
           <ModeToggle></ModeToggle>
 
           {/* Auth Buttons */}
@@ -221,6 +219,15 @@ export default function Navbar() {
                   <Link href="/groups" className="flex w-full items-center">
                     <User className="mr-2 h-4 w-4" />
                     <span>Groups</span>
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild>
+                  <Link
+                    href="/marketplace"
+                    className="flex w-full items-center"
+                  >
+                    <User className="mr-2 h-4 w-4" />
+                    <span>Marketplace</span>
                   </Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem asChild>

@@ -51,7 +51,7 @@ function ResetPasswordForm() {
           your new password.
         </p>
         <Button
-          onClick={() => router.push("/signin")}
+          onClick={() => router.push("/sign-in")}
           className="w-full bg-red-500 hover:bg-red-600 text-white"
         >
           Go to Sign In

@@ -1,0 +1,1 @@
+npm i axios nodemailer --save-dev @types/nodemailer @radix-ui/react-checkbox
